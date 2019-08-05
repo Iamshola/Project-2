@@ -43,7 +43,7 @@ class Home extends React.Component {
             <div className="container">
               <div className="columns is-multiline">
                 <div className="column is-one-third-desktop">
-                  <h1 className="title is-1">CocktailBore</h1>
+                  <h1 className="title is-1">CocktailBored</h1>
                   <h2 className="subtitle is-4"> 🍸A place for bored cocktail lovers</h2>
                   <div className="field has add-ons">
                     <form onSubmit={this.handleSubmit}>
