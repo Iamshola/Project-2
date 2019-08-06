@@ -21,9 +21,7 @@ Your app must:
 
 ## Project Reflection
 
-The READMEs should include:
-* Overview & concept of the project
-* Technologies used
+### Technologies used
   - REACT
   - CSS
   - HTML
@@ -31,12 +29,32 @@ The READMEs should include:
   - Lodash
   - Bulma
 
-* Approach taken - Thought process & methods of producing it
+### Approach taken - Thought process & methods of producing it
   - Basic MVP, couple searches, including an API  
 
 
-* Snippets of your code and screenshots of your project
-* Wins and Blockers
-* Future features
-* What you have learned (tech & soft skills)
+###  Snippets of your code and screenshots of your project and wireframes
+
+
+### Wins and Blockers
+Wins:
+I like the final look of the project. I believe its clean, well designed
+
+Blockers:
+We should have understood our API better to decide which features we'd like to include in our App. 
+
+### Future features
+   More filters such as filter by ingredients such as 'does their drink contain sprite, vodka and lemon'.
+
+
+### What you have learned (tech & soft skills)
+
+#### Tech skills:
+This project was a good opportunity to solidify my knowledge around react.
+
+#### Soft skills:
+Communication between myself and my team mate.
+Organisation
+Detailed planning and plan of execution
+
 ​
