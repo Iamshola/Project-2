@@ -2,12 +2,9 @@
 
 # Project 2 - REACT APP
 
-## Overview
-​
+### Technical Requirements and Project Overview
 The second project is to **build a React application** that consumes a **public API**.
 The completed project can be viewed at https://iamshola.github.io/Project-2/#/
-​
-### Technical Requirements
 ​
 Your app must:
 ​
@@ -30,18 +27,70 @@ Your app must:
   - Bulma
 
 ### Approach taken - Thought process & methods of producing it
-  - Basic MVP, couple searches, including an API  
+  - Basic MVP including couple searches from a public API
+
+#### Wireframes
+![IMG_20190802_084348](https://user-images.githubusercontent.com/43203736/62653578-b9ad1e80-b955-11e9-8ee5-b37f6ab0aa11.jpg)
+
+![IMG_20190802_084315](https://user-images.githubusercontent.com/43203736/62653654-e3664580-b955-11e9-9693-7aed03f7f966.jpg)
+
+![IMG_20190802_084332](https://user-images.githubusercontent.com/43203736/62653660-e7926300-b955-11e9-8271-d9dcf66a0a09.jpg)
+
+<img width="985" alt="Screenshot 2019-08-07 at 20 51 04" src="https://user-images.githubusercontent.com/43203736/62653333-43a8b780-b955-11e9-9b02-16e93e092d10.png">
 
 
 ###  Snippets of your code and screenshots of your project and wireframes
 
+##### Sort function
+```Javascript
+<section className="section">
+  <div className="container">
+    <div className="field">
+      <input placeholder="Search your favourite drink" className="input" onKeyUp={this.handleKeyUp}/>
+    </div>
+
+    <label> Alphabetical Order:  </label>
+    <select onChange={this.handleChange}>
+      <option value="strDrink|asc">A-Z </option>
+      <option value="strDrink|desc">Z-A </option>
+    </select>
+    <br />
+    <br />
+
+    <div className="columns is-multiline">
+      {this.filterCocktails().map(cocktail =>
+        <div className="column is-half-tablet is-one-quarter-desktop"
+          key={cocktail.idDrink}
+        >
+          <Link to={`/cocktails/${cocktail.idDrink}`}>
+            <Card name={cocktail.strDrink} image={cocktail.strDrinkThumb}/>
+          </Link>
+        </div>
+      )}
+    </div>
+  </div>
+</section>
+```
+
+##### Search function to make entries case insensitive
+``` Javascript
+filterCocktails(){
+  const re = new RegExp(this.state.searchTerm, 'i')
+
+  const filterCocktails = _.filter(this.state.cocktails, cocktail => {
+    return re.test(cocktail.strDrink)
+  })
+
+  return filterCocktails
+}
+```
 
 ### Wins and Blockers
 Wins:
 I like the final look of the project. I believe its clean, well designed
 
 Blockers:
-We should have understood our API better to decide which features we'd like to include in our App. 
+We should have understood our API better to decide which features we'd like to include in our App.
 
 ### Future features
    More filters such as filter by ingredients such as 'does their drink contain sprite, vodka and lemon'.
