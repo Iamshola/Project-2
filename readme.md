@@ -27,19 +27,30 @@ Your app must:
   - Bulma
 
 ### Approach taken - Thought process & methods of producing it
-  - Basic MVP including couple searches from a public API
+As a team, we agreed on the basic MVP which we wanted our app to contain which we gave ourselves just under half of the total time frame to complete.
+Our basic MVP included;
+- An index page
+- A filter which allows the user to enter am ingredient of their choice
+- A navbar which is fully routed.
+
+Once we had completed this, we decided to think more about the design and colour themes. We both agreed as this was a predominately alcohol based website, we wanted colours that screamed maturity and class yet quite fresh.
+
+Lastly, we used some of our existing functions to build on more filters and sorters as seen on our index page.
 
 #### Wireframes
 ![IMG_20190802_084348](https://user-images.githubusercontent.com/43203736/62653578-b9ad1e80-b955-11e9-8ee5-b37f6ab0aa11.jpg)
 
+
 ![IMG_20190802_084315](https://user-images.githubusercontent.com/43203736/62653654-e3664580-b955-11e9-9693-7aed03f7f966.jpg)
+
 
 ![IMG_20190802_084332](https://user-images.githubusercontent.com/43203736/62653660-e7926300-b955-11e9-8271-d9dcf66a0a09.jpg)
 
-<img width="985" alt="Screenshot 2019-08-07 at 20 51 04" src="https://user-images.githubusercontent.com/43203736/62653333-43a8b780-b955-11e9-9b02-16e93e092d10.png">
 
 
-###  Snippets of your code and screenshots of your project and wireframes
+<img width="985" alt="Screenshot 2019-08-07 at 20 51 04" src="https://user-images.githubusercontent.com/43203736/62653898-88811e00-b956-11e9-81c1-5d3b39084366.png">
+
+###  Snippets of code
 
 ##### Sort function
 ```Javascript
@@ -86,14 +97,16 @@ filterCocktails(){
 ```
 
 ### Wins and Blockers
-Wins:
-I like the final look of the project. I believe its clean, well designed
 
-Blockers:
-We should have understood our API better to decide which features we'd like to include in our App.
+#### Wins:
+
+I like the final appearance of the project particularly how tidy and easy to navigate it is. Additionally, for my first group project I believe Alexis and I got on very well and helped each other patch up some of our grey areas from the teaching aspect of the module.
+
+#### Blockers:
+One  downfall we had as a group, was not understanding our API fully and the features we could implement. As a result, we lost time trying to access data we couldn't thus not being able to add more complex features as seen on most websites.  
 
 ### Future features
-   More filters such as filter by ingredients such as 'does their drink contain sprite, vodka and lemon'.
+I would love to add more filters such as filter by ingredients which allows the user to ask the following style of question 'Does the drink contain sprite, vodka and lemon?'. This can be achieved by selecting multiple radio buttons and manipulating the GET request to the API.
 
 
 ### What you have learned (tech & soft skills)
@@ -105,5 +118,6 @@ This project was a good opportunity to solidify my knowledge around react.
 Communication between myself and my team mate.
 Organisation
 Detailed planning and plan of execution
+understanding how important time is in the execution of a project 
 
 ​
