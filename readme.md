@@ -2,12 +2,13 @@
 
 # Project 2 - REACT APP
 
-### Technical Requirements and Project Overview
-The second project is to **build a React application** that consumes a **public API**.
-The completed project can be viewed at https://iamshola.github.io/Project-2/#/
-​
+### Requirements and Project Overview
+The second project is to **build a React application** that consumes a **public API**. <br>
+
+The completed project can be viewed [here](https://iamshola.github.io/Project-2/#/)
+
 Your app must:
-​
+
 * **Consume a public API** – this could be anything but it must make sense for your project.
 * **Have several components** - At least one classical and one functional.
 * **The app should include a router** - with several "pages".
@@ -118,6 +119,6 @@ This project was a good opportunity to solidify my knowledge around react.
 Communication between myself and my team mate.
 Organisation
 Detailed planning and plan of execution
-understanding how important time is in the execution of a project 
+understanding how important time is in the execution of a project
 
 ​
