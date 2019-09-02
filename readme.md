@@ -2,13 +2,13 @@
 
 # Project 2 - REACT APP
 
-### Requirements and Project Overview
+### Technical Requirements and Project Overview
 The second project is to **build a React application** that consumes a **public API**. <br>
 
 The completed project can be viewed [here](https://iamshola.github.io/Project-2/#/)
 
 Your app must:
-
+​
 * **Consume a public API** – this could be anything but it must make sense for your project.
 * **Have several components** - At least one classical and one functional.
 * **The app should include a router** - with several "pages".
@@ -28,7 +28,8 @@ Your app must:
   - Bulma
 
 ### Approach taken - Thought process & methods of producing it
-As a team, we agreed on the basic MVP which we wanted our app to contain which we gave ourselves just under half of the total time frame to complete.
+As a team, we agreed on out basic MVP and gave ourselves just under half of the total time frame to complete. This would give us enough contingency time for any bugs or additional features we'd like to implement.
+
 Our basic MVP included;
 - An index page
 - A filter which allows the user to enter am ingredient of their choice
@@ -97,6 +98,21 @@ filterCocktails(){
 }
 ```
 
+
+### Walk around our site
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Wins and Blockers
 
 #### Wins:
@@ -113,12 +129,14 @@ I would love to add more filters such as filter by ingredients which allows the 
 ### What you have learned (tech & soft skills)
 
 #### Tech skills:
-This project was a good opportunity to solidify my knowledge around react.
+This project was a good opportunity to solidify my knowledge around react and using APIs. In addition to this, I believe this has highlighted good and bad features of APIs which will prove useful in my next project.
+
 
 #### Soft skills:
 Communication between myself and my team mate.
 Organisation
 Detailed planning and plan of execution
-understanding how important time is in the execution of a project
+understanding how important time is in the execution of a project.
+
 
 ​
