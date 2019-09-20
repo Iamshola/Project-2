@@ -10,7 +10,7 @@
 * Run `yarn serve` in the CLI
 
 ## Overview
-Cocktailbored is a platform where users can search, filter and sort different alcoholic drinks all from an external API. Launch on [Gh-Pages](https://iamshola.github.io/Project-2/#/). Check out the [GitHub](https://github.com/Iamshola/Project-2). Many thanks to [TheCocktailDB](https://www.thecocktaildb.com/) for this API.
+Cocktailbored is a platform where users can search, filter and sort different alcoholic drinks all from an external API. Launch on [gh-pages](https://iamshola.github.io/Project-2/#/). Check out the [GitHub](https://github.com/Iamshola/Project-2). Many thanks to [TheCocktailDB](https://www.thecocktaildb.com/) for this API.
 
 ## Project Brief
 
@@ -68,14 +68,10 @@ We built our wireframes based on this MVP.
 
 ### Wins:
 
-##### Sort function
-```Javascript
-<section className="section">
-  <div className="container">
-    <div className="field">
-      <input placeholder="Search your favourite drink" className="input" onKeyUp={this.handleKeyUp}/>
-    </div>
+#### Sort
+This is the function that allowed the users to sort through the cocktails alphabetically.
 
+```Javascript
     <label> Alphabetical Order:  </label>
     <select onChange={this.handleChange}>
       <option value="strDrink|asc">A-Z </option>
@@ -83,22 +79,8 @@ We built our wireframes based on this MVP.
     </select>
     <br />
     <br />
-
-    <div className="columns is-multiline">
-      {this.filterCocktails().map(cocktail =>
-        <div className="column is-half-tablet is-one-quarter-desktop"
-          key={cocktail.idDrink}
-        >
-          <Link to={`/cocktails/${cocktail.idDrink}`}>
-            <Card name={cocktail.strDrink} image={cocktail.strDrinkThumb}/>
-          </Link>
-        </div>
-      )}
-    </div>
-  </div>
-</section>
 ```
-
+#### Search
 This is the function that allowed case sensitive searches in our input bar.
 
 ``` Javascript
@@ -113,13 +95,8 @@ filterCocktails(){
 }
 ```
 
-I like the final appearance of the project particularly how tidy and easy to navigate it is. Additionally, for my first group project I believe Alexis and I got on very well and helped each other patch up some of our grey areas from the teaching aspect of the module.
-
 #### Soft skills:
-Communication between myself and my team mate.
-Organisation
-Detailed planning and plan of execution
-understanding how important time is in the execution of a project.
+This was my first time pair programming and I believe the communication between myself and my team mate was very good and this made the process enjoyable. We were organised and had a detailed plan and plan of execution and an understanding of how important time was in the execution of a project.
 
 ### Blockers:
 One  downfall we had as a group, was not understanding our API fully and the features we could implement. As a result, we lost time trying to access data we couldn't thus not being able to add more complex features as seen on most websites.  
@@ -141,7 +118,7 @@ I would love to add more filters such as filter by ingredients which allows the 
 
 > **Week 4**
 
-  Project 1 : Frogger  | [GitHub](https://github.com/Iamshola/project-01) | [GH-Pages](https://iamshola.github.io/project-01/)
+  Project 1 : Frogger  | [GitHub](https://github.com/Iamshola/project-01) | [gh-pages](https://iamshola.github.io/project-01/)
 
 >**Week 5 | Module Two - React**
 
@@ -152,7 +129,7 @@ I would love to add more filters such as filter by ingredients which allows the 
 
 >**Week 6**
 
-  Project 2 : CocktailBored  | [GitHub](https://github.com/Iamshola/Project3) | [GH-Pages](https://iamshola.github.io/Project-2/#/)
+  Project 2 : CocktailBored  | [GitHub](https://github.com/Iamshola/Project3) | [gh-pages](https://iamshola.github.io/Project-2/#/)
 
 >**Week 7-8 | Module Three - Node and Express**
 
