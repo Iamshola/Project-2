@@ -1,14 +1,23 @@
-![ga_cog_large_red_rgb]
+![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png) x <img width="220" alt="Screenshot 2019-09-16 at 19 37 39" src="https://user-images.githubusercontent.com/43203736/64984044-d6743480-d8b9-11e9-83ad-59a729cb64ee.png">
 
-# Project 2 - REACT APP
 
-### Technical Requirements and Project Overview
-The second project is to **build a React application** that consumes a **public API**. <br>
+# Project 2: CocktailBored
 
-The completed project can be viewed [here](https://iamshola.github.io/Project-2/#/)
 
-Your app must:
-​
+### Installation
+
+* Clone or download the repo
+* Run `yarn init` in the CLI
+* Run `yarn serve` in the CLI
+
+
+## Overview
+The completed project can be viewed [here](https://iamshola.github.io/Project-2/#/).
+
+## Project Brief
+
+### The brief requirements were:
+
 * **Consume a public API** – this could be anything but it must make sense for your project.
 * **Have several components** - At least one classical and one functional.
 * **The app should include a router** - with several "pages".
@@ -17,7 +26,7 @@ Your app must:
 * **Be deployed online** and accessible to the public.
 
 
-## Project Reflection
+### Project Reflection
 
 ### Technologies used
   - REACT
@@ -27,7 +36,11 @@ Your app must:
   - Lodash
   - Bulma
 
-### Approach taken - Thought process & methods of producing it
+### Timeframe:
+  2 days
+
+
+### Approach taken
 As a team, we agreed on out basic MVP and gave ourselves just under half of the total time frame to complete. This would give us enough contingency time for any bugs or additional features we'd like to implement.
 
 Our basic MVP included;
@@ -99,7 +112,7 @@ filterCocktails(){
 ```
 
 
-### Walk around our site
+### Preview of site
 
 
 
@@ -131,15 +144,15 @@ I would love to add more filters such as filter by ingredients which allows the 
 #### Tech skills:
 This project was a good opportunity to solidify my knowledge around react and using APIs. In addition to this, I believe this has highlighted good and bad features of APIs which will prove useful in my next project.
 
-
 #### Soft skills:
 Communication between myself and my team mate.
 Organisation
 Detailed planning and plan of execution
 understanding how important time is in the execution of a project.
 
+
 ### Course Curriculum
-  Details of my training and links to more projects whlist at General Assembly -  12 Week Immersive.
+  Details of my training and links to more projects whilst at General Assembly -  12 Week Immersive.
 
 > **Week 1-3 | Module One - Fundamentals**
 
@@ -175,7 +188,7 @@ understanding how important time is in the execution of a project.
 
 >**Week 9**
 
-  Project 3 : Date-a-base | [GitHub](https://github.com/Iamshola/Project3) | [GH-Pages](https://iamshola.github.io/Project-2/#/)
+  Project 3 : Date-a-base | [GitHub](https://github.com/Iamshola/Project3) | [Herouku](https://datingexp.herokuapp.com/#/)
 
 >**Week 10-11 | Module Four - Python and Django**
 
@@ -189,12 +202,8 @@ understanding how important time is in the execution of a project.
   Project 4 : Space | [GitHub](https://github.com/Iamshola/project-04) | [Herouku](https://date-a-base-aos.herokuapp.com/#/)
 
 
-  Contact:
-
-  Adesola Oni-Shogbonyo
-
-  Email : s.oni-shogbonyo@hotmail.co.uk
-
-  Portfolio | [Linkedin](https://www.linkedin.com/in/adesola-oni-shogbonyo/) | [GitHub](https://github.com/Iamshola)
-
+  ### Contact
+  Adesola Oni-Shogbonyo\
+  Email : s.oni-shogbonyo@hotmail.co.uk\
+  [Portfolio](https://iamshola.github.io/) | [Linkedin](https://www.linkedin.com/in/adesola-oni-shogbonyo/) | [GitHub](https://github.com/Iamshola)
 ​
