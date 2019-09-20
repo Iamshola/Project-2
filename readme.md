@@ -9,7 +9,6 @@
 * Run `yarn init` in the CLI
 * Run `yarn serve` in the CLI
 
-
 ## Overview
 Cocktailbored is a platform where users can search, filter and sort different alcoholic drinks all from an external API. Launch on [Gh-Pages](https://iamshola.github.io/Project-2/#/). Check out the [GitHub](https://github.com/Iamshola/Project-2). Many thanks to [TheCocktailDB](https://www.thecocktaildb.com/) for this API.
 
@@ -25,8 +24,6 @@ Cocktailbored is a platform where users can search, filter and sort different al
 * **Be deployed online** and accessible to the public.
 
 ### Process
-
-#### Approach taken
 As a team, we agreed on out basic MVP and gave ourselves just under half of the total time frame to complete. This would give us enough contingency time for any bugs or additional features we'd like to implement.
 
 Our basic MVP included;
@@ -36,11 +33,10 @@ Our basic MVP included;
 
 We built our wireframes based on this MVP.
 
-#### Wireframes
-
+#### Wireframes:
 <img width="985" alt="Screenshot 2019-08-07 at 20 51 04" src="https://user-images.githubusercontent.com/43203736/62653898-88811e00-b956-11e9-81c1-5d3b39084366.png">
 
-#### Technologies used
+#### Languages and Technologies Used:
   - REACT
   - CSS
   - HTML
@@ -54,6 +50,18 @@ We built our wireframes based on this MVP.
 #### Preview of site
 
 ![ezgif com-video-to-gif (3)](https://user-images.githubusercontent.com/43203736/65348901-1d279e80-dbda-11e9-9c4c-5109c345c45b.gif)
+
+
+### Features
+
+> **All Features:**
+
+  - Sort through cocktails
+  - Search through cocktails
+  - Filter through Cocktails
+  - View show pages of the cocktail
+  - Navigate through different pages using react router
+  - Read the About us sections
 
 
 ## Wins and Blockers
