@@ -1,7 +1,7 @@
 ![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png) x <img width="220" alt="Screenshot 2019-09-16 at 19 37 39" src="https://user-images.githubusercontent.com/43203736/64984044-d6743480-d8b9-11e9-83ad-59a729cb64ee.png">
 
 # Project 2: CocktailBored
-###### View Site Here [Gh-Pages](https://iamshola.github.io/Project-2/#/)
+###### View Site [Here](https://iamshola.github.io/Project-2/#/)
 
 ### Installation
 
